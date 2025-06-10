@@ -15,5 +15,7 @@ Version 1.0
  */
 public class TestDoank {
 
+    public void testHitung(){
 
+    }
 }
