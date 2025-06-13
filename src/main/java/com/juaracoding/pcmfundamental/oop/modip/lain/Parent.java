@@ -28,6 +28,7 @@ public class Parent {
     public void printValue() {
         System.out.println(intValue*10);
     }
-
-
+    void printValue(String s) {
+        System.out.println("Nilai Parameter : "+s);
+    }
 }

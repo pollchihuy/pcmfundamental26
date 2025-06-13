@@ -13,11 +13,44 @@ Version 1.0
 */
 public class Staff {
 
-    String nama;
-    String jabatan;
-    Integer gaji;
-    String alamat;
-    String email;
-    LocalDate tanggalLahir;
-    
+    private String nama;
+    private String jabatan;
+    private Integer gaji;
+    private String alamat;
+    private String email;
+    private LocalDate tanggalLahir;
+
+
+    public Staff(String nama, String jabatan, Integer gaji, String alamat, String email, LocalDate tanggalLahir) {
+        this.nama = nama;
+        this.jabatan = jabatan;
+        this.gaji = gaji;
+        this.alamat = alamat;
+        this.email = email;
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getJabatan() {
+        return jabatan;
+    }
+
+    public Integer getGaji() {
+        return gaji;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public LocalDate getTanggalLahir() {
+        return tanggalLahir;
+    }
 }

@@ -1,6 +1,6 @@
 package com.juaracoding.pcmfundamental.oop.modip;
 
-import com.juaracoding.pcmfundamental.oop.modip.lain.Parent;
+import com.juaracoding.pcmfundamental.oop.modip.lain.Child;
 
 /*
 IntelliJ IDEA 2024.1.4 (Ultimate Edition)
@@ -12,8 +12,9 @@ Created on 12/06/2025 21:28
 Version 1.0
 */
 public class Child2 extends Child {
+
+
     public void penambahan3(){
 
     }
-
 }

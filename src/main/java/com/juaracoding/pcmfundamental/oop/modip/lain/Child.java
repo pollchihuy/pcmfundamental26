@@ -1,6 +1,4 @@
-package com.juaracoding.pcmfundamental.oop.modip;
-
-import com.juaracoding.pcmfundamental.oop.modip.lain.Parent;
+package com.juaracoding.pcmfundamental.oop.modip.lain;
 
 /*
 IntelliJ IDEA 2024.1.4 (Ultimate Edition)
@@ -13,14 +11,16 @@ Version 1.0
 */
 public class Child extends Parent{
 
-
+    public Child() {
+        super.printValue("s");
+    }
 
     public void penambahan1(){
         printValue();
     }
 
     public void penambahan2(){
-
+        super.printValue();
     }
 //    public static void main(String[] args) {
 //        Parent parent = new Parent();
@@ -31,4 +31,18 @@ public class Child extends Parent{
 //        parent.setIntValue(15);
 //        parent.printValue();
 //    }
+
+    /**
+     * public
+     * protected
+     * no modifier
+     * private
+     *
+     * @param s
+     */
+    @Override
+    void printValue(String s) {
+        System.out.println("Nilai Parameter : "+s);
+        System.out.println("Dimodifikasi");
+    }
 }
