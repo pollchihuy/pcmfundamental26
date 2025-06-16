@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-<!--    <dependencies>-->
+    <dependencies>
 <!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.cloudinary/cloudinary-http44 &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>com.cloudinary</groupId>-->
@@ -167,13 +167,13 @@
 <!--            <scope>test</scope>-->
 <!--        </dependency>-->
 
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.testng/testng &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.testng</groupId>-->
-<!--            <artifactId>testng</artifactId>-->
-<!--            <version>7.10.2</version>-->
-<!--            <scope>test</scope>-->
-<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.10.2</version>
+            <scope>test</scope>
+        </dependency>
 
 <!--        <dependency>-->
 <!--            <groupId>io.rest-assured</groupId>-->
@@ -192,7 +192,7 @@
 
 
 
-<!--    </dependencies>-->
+    </dependencies>
 
     <build>
         <plugins>

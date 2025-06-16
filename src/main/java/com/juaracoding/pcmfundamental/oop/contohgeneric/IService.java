@@ -8,4 +8,5 @@ public interface IService<T> {
     public void delete(Long id);//021-030
     public T find(Long id);//031-040
     public List<T> findAll();//041-050
+//    public List<T> findAll(T t);//081-090
 }
